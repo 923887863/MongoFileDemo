@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <form action="/Home/UploadFile" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" value="UpLoad" />
+    </form>
+</div>
